@@ -1,0 +1,212 @@
+header{
+    background-color: #7e0707;
+    padding: 1px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    
+
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+    
+}
+
+.banner .welcome{
+    position: absolute;
+    background-color: transparent;
+    left: 30px;
+    top: 30%;
+    color:silver;
+       text-shadow:
+       4px 4px 1px #300000,
+       4px 6px 1px #400000,
+       4px 8px 1px #500000,
+       4px 10px 1px #600000,
+       4px 12px 1px #700000,
+       4px 14px 1px #800000,
+       4px 16px 1px #900000,
+       4px 18px 1px #A00000,
+       4px 20px 1px #B00000,
+       4px 22px 1px #C00000,
+       4px 24px 1px #D00000,
+       4px 26px 1px #E00000,
+       4px 28px 1px #F00000,
+       4px 30px 1px #FA0000,
+       4px 32px 1px #FB0000,
+       4px 34px 1px #FC0000,
+       4px 36px 1px #FD0000,
+       4px 38px 1px #FE0000,
+       4px 40px 2px #FF0000;
+}
+.banner h1{
+    font-size: 70px;
+}
+.banner h1 span{
+    font-size: 1.3em;
+}
+nav{
+    background-color: #eee8e8;
+    padding: 10px;
+    position: sticky;
+    top: 82px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: #4B4B4B;
+}
+nav li a.join{
+    color: #7e0707;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article p{
+    line-height: 2em;
+    color: grey;
+
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 45%;
+    margin: 30px 5%;
+
+}
+.images li img{
+    max-width: 100%;
+}
+.join{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 60 20px;
+}
+.join h2{
+    font-size: 36px;
+}
+form input{
+    margin: 20px;
+    padding: 10px, 20px;
+    font-size: 20px;
+    border-radius: 28px;
+    border: 4px solid white;
+
+}
+footer{
+    background: #7e0707;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+
+/* resposive styles */
+
+@media screen and (max-width: 1125px){
+
+    .banner .welcome h2{
+     font-size: 20px;
+     left: 0px;
+    }
+    .main-nav li{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 700px){
+    .banner .welcome{
+        position: relative;
+        text-align: center;
+        color: #747171;
+        text-shadow:
+        4px 4px 1px #400000,
+        4px 6px 1px #500000,
+        4px 8px 1px #600000,
+        4px 10px 1px #700000,
+        4px 12px 1px #800000,
+        4px 14px 1px #900000,
+        4px 16px 1px #A00000,
+        4px 18px 1px #B00000,
+        4px 20px 1px #C00000,
+        4px 22px 1px #D00000,
+        4px 24px 1px #E00000,
+        4px 26px 1px #F00000,
+        4px 28px 1px #FA0000,
+        4px 30px 1px #FB0000,
+        4px 32px 1px #FC0000,
+        4px 34px 1px #FD0000,
+        4px 36px 1px #FE0000,
+        4px 38px 2px #FF0000;
+        padding: 4px;
+    }
+        
+    }
+    .banner .welcome br{
+        display: none;
+    }
+    .banner .welcome h2{
+        font-size: 25px;
+    }
+    .banner .welcome span{
+        font-size: 1em;
+    }
+    header{
+        position: relative;
+    }
+    nav{
+        top: 0;
+    }
+    
+
+    
+
+@media screen and (max-width: 500px){
+    nav li{
+            font-size: 20px;
+            display: block;
+            width: 100%;
+            margin: 20px 0;
+        }
+    header{
+            position: relative;
+        }
+        nav{
+            top: 0;
+        }
+        .images li{
+            width: 100%;
+            margin: 20px, auto;
+            display: block;
+        }
+        
+        
+        
+
+    }
